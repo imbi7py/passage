@@ -10,9 +10,9 @@ from .compat import sendmsg, recvmsg_into, SCM_RIGHTS, CMSG_SPACE
 
 
 class PassagewayException(Exception):
-    '''\
-    Raised when a Rail can't be sent across a PassageWay.
-    '''
+    """\
+    Raised when a Basket can't be sent across a PassageWay.
+    """
 
 DescribedObject = namedtuple('DescribedObject', 'description filenos')
 
